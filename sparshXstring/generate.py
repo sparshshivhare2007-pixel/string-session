@@ -74,11 +74,11 @@ buttons_bot = [
 ask_tools = "**<blockquote><b>❖ ʜᴇʀᴇ ɪs ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴛᴏᴏʟs ᴍᴇᴛʜᴏᴅ.</b></blockquote>\n\n» ᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ʟɪʙʀᴀʀʏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ.: :**"
 buttons_tools = [
     [
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ", url=f"https://t.me/ChampuStringBot/Telethon"),
-        InlineKeyboardButton("ᴘʏʀᴏɢʀᴀᴍ", url=f"https://t.me/ChampuStringBot/Pyrogram"),
+        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ", url=f"https://t.me/sparshstringsessionbot/Telethon"),
+        InlineKeyboardButton("ᴘʏʀᴏɢʀᴀᴍ", url=f"https://t.me/sparshstringsessionbot/Pyrogram"),
     ],
     [
-        InlineKeyboardButton("ɢᴇɴᴇʀᴀᴛᴇ ᴀʟʟ ᴛʏᴘᴇs", url=f"https://t.me/ChampuStringBot/genalltypes"),
+        InlineKeyboardButton("ɢᴇɴᴇʀᴀᴛᴇ ᴀʟʟ ᴛʏᴘᴇs", url=f"https://t.me/sparshstringsessionbot/genalltypes"),
     ],
     [
         InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="back"),
@@ -202,7 +202,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**ᴛʜɪs ɪs ʏᴏᴜʀ {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{string_session}` \n\n**ɢᴇɴʀᴀᴛᴇᴅ ʙʏ :[ᴄʜᴧᴍᴘᴜ](https://t.me/TheChampu) ᴡᴀʀɴɪɴɢ :** ᴅᴏɴᴛ sʜᴀʀᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴇᴠᴇɴ ɪғ ᴡɪᴛʜ ʏᴏᴜʀ ɢғ 🏴‍☠️"
+    text = f"**ᴛʜɪs ɪs ʏᴏᴜʀ {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{string_session}` \n\n**ɢᴇɴʀᴀᴛᴇᴅ ʙʏ :[⏤͟͞ 𝙈𝘼𝘼𝙔𝘼𝙑𝙄 𝙃𝙐 𝙈𝙀](https://t.me/Maayavi_hubhai) ᴡᴀʀɴɪɴɢ :** ᴅᴏɴᴛ sʜᴀʀᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴇᴠᴇɴ ɪғ ᴡɪᴛʜ ʏᴏᴜʀ ɢғ 🏴‍☠️"
     try:
         if msg.chat.type != "bot":
             await bot.send_message(msg.chat.id, text)
