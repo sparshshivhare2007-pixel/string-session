@@ -9,7 +9,7 @@ home_ques = """ʜᴇʟʟᴏ {msg.from_user.mention},
 🔐 ᴜɴʟᴏᴄᴋ ᴛʜᴇ ᴍʏsᴛᴇʀɪᴇs ᴏғ sᴛʀɪɴɢ ɢᴇɴᴇʀᴧᴛɪᴏɴ!
 🌌 sʟᴇᴇᴋ. ᴇʟᴇɢᴧɴᴛ. ᴛɪᴍᴇʟᴇss.
 
-🎨 ᴄʀᴇᴧᴛᴇᴅ ʙʏ: [ᴄʜᴧᴍᴘᴜ](tg://user?id={OWNER_ID}) !"""
+🎨 ᴄʀᴇᴧᴛᴇᴅ ʙʏ: [⏤͟͞ 𝙈𝘼𝘼𝙔𝘼𝙑𝙄 𝙃𝙐 𝙈𝙀](tg://user?id={OWNER_ID}) !"""
 
 home_buttons = [
     [
