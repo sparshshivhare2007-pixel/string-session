@@ -16,8 +16,8 @@ home_buttons = [
         InlineKeyboardButton(text="ɢᴇɴᴇʀᴧᴛᴇ sᴛʀɪɴɢ", callback_data="generate")
     ],
     [
-        InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/akaChampu"),
-        InlineKeyboardButton("ᴄʜᴧɴɴᴇʟ", url="https://t.me/TheChampu")
+        InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/destinybots"),
+        InlineKeyboardButton("ᴄʜᴧɴɴᴇʟ", url="https://t.me/destinybots")
     ]
 ]
 
