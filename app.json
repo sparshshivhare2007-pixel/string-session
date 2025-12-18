@@ -1,0 +1,26 @@
+{
+  "name": "String Session Bot",
+  "description": "Telegram String Session Generator Bot",
+  "repository": "https://github.com/sparshshivhare2007-pixel/string-session",
+  "keywords": ["telegram", "pyrogram", "session"],
+  "env": {
+    "API_ID": {
+      "description": "my.telegram.org se API_ID dalein",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "my.telegram.org se API_HASH dalein",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "@BotFather se mila Token dalein",
+      "value": ""
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
